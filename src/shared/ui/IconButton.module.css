@@ -1,0 +1,25 @@
+.iconButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--color-text);
+}
+
+.iconButton:hover {
+  background: var(--color-accent-soft);
+}
+
+.overlay {
+  color: var(--color-overlay-text);
+  background: var(--color-overlay-chip);
+}
+
+.overlay:hover {
+  background: color-mix(in srgb, var(--color-overlay-chip) 80%, white);
+}

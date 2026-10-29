@@ -1,0 +1,67 @@
+.prose {
+  font-family: var(--font-serif);
+  font-size: calc(var(--text-book) * var(--font-scale));
+  font-weight: 400;
+  line-height: var(--line-height);
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+.prose p {
+  margin: 0 0 var(--space-5);
+  text-wrap: pretty;
+}
+
+.withDropCap > p:first-child::first-letter {
+  float: left;
+  padding: 0.06em 0.08em 0 0;
+  color: var(--color-accent);
+  font-weight: 600;
+  font-size: 3.2em;
+  line-height: 0.78;
+}
+
+.quote {
+  margin: var(--space-6) 0;
+  padding-left: var(--space-4);
+  border-left: 2px solid var(--color-accent);
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.quote p {
+  margin-bottom: var(--space-3);
+}
+
+.subheading,
+.minor {
+  margin: var(--space-7) 0 var(--space-4);
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.subheading {
+  font-size: 1.5em;
+}
+
+.minor {
+  font-size: 1.25em;
+}
+
+.link {
+  color: var(--color-accent);
+  text-underline-offset: 0.18em;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin: var(--space-5) 0;
+  border-radius: var(--radius-md);
+}
+
+.break {
+  margin: var(--space-7) auto;
+  max-width: 12rem;
+}

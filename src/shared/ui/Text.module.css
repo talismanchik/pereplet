@@ -1,0 +1,31 @@
+.text {
+  margin: 0;
+}
+
+.body {
+  font-family: var(--font-serif);
+  font-size: calc(var(--text-book) * var(--font-scale));
+  line-height: var(--line-height);
+}
+
+.ui {
+  font-size: var(--text-md);
+  line-height: 1.5;
+}
+
+.caption {
+  font-size: var(--text-sm);
+  line-height: 1.45;
+}
+
+.kicker {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.muted {
+  color: var(--color-text-muted);
+}

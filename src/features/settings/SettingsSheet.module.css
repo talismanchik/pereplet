@@ -1,0 +1,15 @@
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.preview {
+  margin: 0;
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text);
+  font-family: var(--font-serif);
+  font-size: calc(var(--text-book) * var(--font-scale));
+  line-height: var(--line-height);
+}

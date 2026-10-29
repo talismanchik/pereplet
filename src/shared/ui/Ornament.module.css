@@ -1,0 +1,18 @@
+.ornament {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--color-accent);
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
+}
+
+.mark {
+  width: 28px;
+  height: 16px;
+  flex: none;
+}

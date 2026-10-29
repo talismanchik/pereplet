@@ -1,0 +1,24 @@
+.heading {
+  margin: 0;
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+.display {
+  font-family: var(--font-serif);
+  font-size: clamp(3.25rem, 12vw, 5.25rem);
+  font-weight: 600;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  line-height: 1.15;
+}
+
+.section {
+  font-family: var(--font-sans);
+  font-size: var(--text-lg);
+}
